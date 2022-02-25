@@ -1,0 +1,76 @@
+(footprint "TOUCH_PAD" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6214939B)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -5.8 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 550fc6a9-b80c-418b-834b-ec974f451676)
+  )
+  (fp_text value "TOUCH_PAD" (at 0 0 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cb8b56f1-97cb-4849-a0a2-5bb1688214dc)
+  )
+  (fp_text user "${REFERENCE}" (at 0 1.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 081756d5-d32e-43c5-af1f-be04c84141d2)
+  )
+  (pad "1" smd rect (at -4.75 0 270) (size 10 0.5) (layers "F.Cu") (tstamp 3a1645b0-5f25-4e28-971e-69c5825f7288))
+  (pad "1" smd rect (at 0 4.75) (size 10 0.5) (layers "F.Cu") (tstamp 45cfe569-9e9f-412b-ba1c-00bf155324cb))
+  (pad "1" smd rect (at 4.75 0 270) (size 10 0.5) (layers "F.Cu") (tstamp 52fa014c-a847-46d1-b1de-2ab3a2991c54))
+  (pad "1" smd rect (at 0 -4.75 180) (size 10 0.5) (layers "F.Cu") (tstamp f5802821-93ec-4567-990a-a42bc390e2bd))
+  (pad "2" smd rect (at 3 -3.875 270) (size 0.25 2) (layers "F.Cu") (tstamp 0c5b1d79-f91d-4d9e-853d-ffc91ea03ae9))
+  (pad "2" smd rect (at 3 3.875 270) (size 0.25 2) (layers "F.Cu") (tstamp 59390a1a-22d0-440c-b20d-876f11fbc57e))
+  (pad "2" smd rect (at 3.875 -3) (size 0.25 2) (layers "F.Cu") (tstamp 7274d3b0-fe4b-499c-bc14-00f254fff864))
+  (pad "2" smd rect (at -3 -3.875 90) (size 0.25 2) (layers "F.Cu") (tstamp abd7f2b5-ebf6-4918-aadc-24dabcc8e48f))
+  (pad "2" smd rect (at -3.875 -3) (size 0.25 2) (layers "F.Cu") (tstamp c5576968-737d-44d3-a965-13d04b7e79e3))
+  (pad "2" smd rect (at -3.875 3 180) (size 0.25 2) (layers "F.Cu") (tstamp d29a43aa-268d-4cd8-b2e4-8ecbc56d77b4))
+  (pad "2" smd rect (at -3 3.875 90) (size 0.25 2) (layers "F.Cu") (tstamp ec9ae8c7-466d-42ac-9b50-d0c0b542a5a8))
+  (pad "2" smd rect (at 3.875 3 180) (size 0.25 2) (layers "F.Cu") (tstamp fbe45de8-cdcb-47ec-a154-9ac6d0dede3b))
+  (pad "3" smd rect (at 0 0) (size 6 6) (layers "F.Cu") (tstamp a67c3131-d47e-4c95-ba2e-bc53cecef94f))
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 8a1083db-b9f5-4c9b-8cbe-3cfff459df9f) (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 5.25 5.25)
+        (xy -5.25 5.25)
+        (xy -5.25 -5.25)
+        (xy 5.25 -5.25)
+      )
+    )
+  )
+  (group "" (id 09b044ad-db25-4c1f-8a7d-0954e7699207)
+    (members
+      abd7f2b5-ebf6-4918-aadc-24dabcc8e48f
+      c5576968-737d-44d3-a965-13d04b7e79e3
+    )
+  )
+  (group "" (id 0d3bc842-b0d6-4d14-8cd9-d3b7cf50614c)
+    (members
+      d29a43aa-268d-4cd8-b2e4-8ecbc56d77b4
+      ec9ae8c7-466d-42ac-9b50-d0c0b542a5a8
+    )
+  )
+  (group "" (id a32e8df7-ebbd-4b75-b89c-6ca0b9d0c245)
+    (members
+      0c5b1d79-f91d-4d9e-853d-ffc91ea03ae9
+      7274d3b0-fe4b-499c-bc14-00f254fff864
+    )
+  )
+  (group "" (id d891fc58-5b2d-4e74-a96d-727b8ad80f97)
+    (members
+      59390a1a-22d0-440c-b20d-876f11fbc57e
+      fbe45de8-cdcb-47ec-a154-9ac6d0dede3b
+    )
+  )
+  (group "" (id f3c5089d-11e1-4548-ac9c-14640fea541f)
+    (members
+      3a1645b0-5f25-4e28-971e-69c5825f7288
+      45cfe569-9e9f-412b-ba1c-00bf155324cb
+      52fa014c-a847-46d1-b1de-2ab3a2991c54
+      f5802821-93ec-4567-990a-a42bc390e2bd
+    )
+  )
+)

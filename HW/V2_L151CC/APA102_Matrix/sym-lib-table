@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "APA102_Matrix_Symbols")(type "KiCad")(uri "${KIPRJMOD}/APA102_Matrix_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_Addrs")(type "KiCad")(uri "/Users/adityasehgal/Documents/GitHub/APA102_LED_Board/HW/V1_F103C8/LED_Addrs.kicad_sym")(options "")(descr "")(disabled))
+)
